@@ -39,7 +39,7 @@ class Header extends Component {
       logoUrl = (
         <img
           src="/assets/images/logo/logo.png"
-          style={{ width: "100px", height: "60px", marginTop: "-10px" }}
+          style={{ width: "100px", height: "60px", marginTop: "10px" }}
           alt="August Logo"
         />
       );
@@ -53,7 +53,7 @@ class Header extends Component {
       logoUrl = (
         <img
           src="/assets/images/logo/logo.png"
-          style={{ width: "100px", height: "60px", marginTop: "-10px" }}
+          style={{ width: "100px", height: "60px", marginTop: "10px" }}
           alt="Digital Agency"
         />
       );

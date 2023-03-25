@@ -10,7 +10,7 @@ class About extends Component {
   render() {
     let title = "About",
       description =
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going.";
+        "Hi, I'm August. I fell in love with the creative process long ago. My artistic endeavors have become increasingly varied over time. An interest in art and music evolved into designing guitar amps. At first, I probably was imitating the punk singers I grew up idolizing, who also are professors, make hot sauce, or pursue UFO disclosure. But I have found an inherent feedback loop in working in multiple artistic fields that enables spontaneity and growth across all mediums. I do freelance design on the side of teaching and making art. Other than creating, I enjoy spending time with my family and shooting instant film. Please feel free to drop me a line at august@otisamp.com.";
     return (
       <React.Fragment>
         <PageHelmet pageTitle="About" />

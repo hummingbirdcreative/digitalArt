@@ -42,13 +42,17 @@ class ProductDesign extends Component {
                     <h2>Otis Amps</h2>
                     <p>
                       Designed in Illustrator. Machined using MasterCam. Photo
-                      by Scott Harper.
+                      by Scott Harper(top) & Mike Coots(Bottom Left).
                     </p>
                   </div>
                   <div className="portfolio-thumb-inner">
                     <div className="thumb mb--30">
                       <img
                         src="https://i.imgur.com/7U6VMOP.jpg"
+                        alt="Portfolio Images"
+                      />
+                      <img
+                        src="https://i.imgur.com/Tzomhop.jpg"
                         alt="Portfolio Images"
                       />
                     </div>

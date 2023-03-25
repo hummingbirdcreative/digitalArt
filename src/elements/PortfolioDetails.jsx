@@ -39,6 +39,28 @@ class PortfolioDetails extends Component {
               <div className="col-lg-12">
                 <div className="portfolio-details">
                   <div className="inner">
+                    <h2>The Vo</h2>
+                  </div>
+                  <div className="portfolio-thumb-inner">
+                    <div className="thumb mb--30">
+                      <img
+                        src="https://i.imgur.com/nOl7BvW.jpg"
+                        alt="Portfolio Images"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rn-portfolio-details ptb--120 bg_color--1">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="portfolio-details">
+                  <div className="inner">
                     <h2>Half Horse</h2>
                   </div>
                   <div className="portfolio-thumb-inner">
@@ -61,13 +83,12 @@ class PortfolioDetails extends Component {
               <div className="col-lg-12">
                 <div className="portfolio-details">
                   <div className="inner">
-                    <h2>rOt</h2>
+                    <h2>Special Delivery</h2>
                   </div>
                   <div className="portfolio-thumb-inner">
                     <div className="thumb mb--30">
                       <img
-                        style={{ height: "890px" }}
-                        src="https://i.imgur.com/26gZFn1.jpg"
+                        src="https://i.imgur.com/ohx3Qlb.jpg"
                         alt="Portfolio Images"
                       />
                     </div>
@@ -77,18 +98,19 @@ class PortfolioDetails extends Component {
             </div>
           </div>
         </div>
+
         <div className="rn-portfolio-details ptb--120 bg_color--1">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <div className="portfolio-details">
                   <div className="inner">
-                    <h2>Special Delivery</h2>
+                    <h2>They Live</h2>
                   </div>
                   <div className="portfolio-thumb-inner">
                     <div className="thumb mb--30">
                       <img
-                        src="https://i.imgur.com/ohx3Qlb.jpg"
+                        src="https://i.imgur.com/cZ3JvK4.jpg"
                         alt="Portfolio Images"
                       />
                     </div>
@@ -127,56 +149,12 @@ class PortfolioDetails extends Component {
               <div className="col-lg-12">
                 <div className="portfolio-details">
                   <div className="inner">
-                    <h2>The Vo</h2>
-                  </div>
-                  <div className="portfolio-thumb-inner">
-                    <div className="thumb mb--30">
-                      <img
-                        src="https://i.imgur.com/nOl7BvW.jpg"
-                        alt="Portfolio Images"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="rn-portfolio-details ptb--120 bg_color--1">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="portfolio-details">
-                  <div className="inner">
                     <h2>Untitled</h2>
                   </div>
                   <div className="portfolio-thumb-inner">
                     <div className="thumb mb--30">
                       <img
                         src="https://i.imgur.com/lOtDo1Y.jpg"
-                        alt="Portfolio Images"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="rn-portfolio-details ptb--120 bg_color--1">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="portfolio-details">
-                  <div className="inner">
-                    <h2>They Live</h2>
-                  </div>
-                  <div className="portfolio-thumb-inner">
-                    <div className="thumb mb--30">
-                      <img
-                        src="https://i.imgur.com/cZ3JvK4.jpg"
                         alt="Portfolio Images"
                       />
                     </div>
@@ -221,6 +199,29 @@ class PortfolioDetails extends Component {
                     <div className="thumb mb--30">
                       <img
                         src="https://i.imgur.com/SstJAM0.jpg"
+                        alt="Portfolio Images"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rn-portfolio-details ptb--120 bg_color--1">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="portfolio-details">
+                  <div className="inner">
+                    <h2>rOt</h2>
+                  </div>
+                  <div className="portfolio-thumb-inner">
+                    <div className="thumb mb--30">
+                      <img
+                        style={{ height: "890px" }}
+                        src="https://i.imgur.com/26gZFn1.jpg"
                         alt="Portfolio Images"
                       />
                     </div>
