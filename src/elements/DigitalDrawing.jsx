@@ -100,6 +100,51 @@ class DigitalDrawing extends Component {
           </div>
         </div>
 
+        <div className="rn-portfolio-details ptb--120 bg_color--1">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="portfolio-details">
+                  <div className="inner">
+                    <h2>Clint</h2>
+                  </div>
+                  <div className="portfolio-thumb-inner">
+                    <div className="thumb mb--30">
+                      <img
+                        style={{ width: "700px", height: "890px" }}
+                        src="https://i.imgur.com/4gpci66.jpg"
+                        alt="Portfolio Images"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rn-portfolio-details ptb--120 bg_color--1">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="portfolio-details">
+                  <div className="inner">
+                    <h2>Gondola</h2>
+                  </div>
+                  <div className="portfolio-thumb-inner">
+                    <div className="thumb mb--30">
+                      <img
+                        src="https://i.imgur.com/976A2Br.jpg"
+                        alt="Portfolio Images"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* End Portfolio Details */}
 
         {/* Start Back To Top */}

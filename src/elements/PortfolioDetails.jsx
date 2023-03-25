@@ -237,6 +237,52 @@ class PortfolioDetails extends Component {
               <div className="col-lg-12">
                 <div className="portfolio-details">
                   <div className="inner">
+                    <h2>Atlanta</h2>
+                  </div>
+                  <div className="portfolio-thumb-inner">
+                    <div className="thumb mb--30">
+                      <img
+                        style={{ height: "890px" }}
+                        src="https://i.imgur.com/sASEAHs.jpg"
+                        alt="Portfolio Images"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rn-portfolio-details ptb--120 bg_color--1">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="portfolio-details">
+                  <div className="inner">
+                    <h2>Atlantis</h2>
+                  </div>
+                  <div className="portfolio-thumb-inner">
+                    <div className="thumb mb--30">
+                      <img
+                        style={{ height: "890px" }}
+                        src="https://i.imgur.com/6q3Jafs.jpg"
+                        alt="Portfolio Images"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rn-portfolio-details ptb--120 bg_color--1">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="portfolio-details">
+                  <div className="inner">
                     <h2>rOt</h2>
                   </div>
                   <div className="portfolio-thumb-inner">
