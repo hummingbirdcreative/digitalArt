@@ -32,27 +32,7 @@ class PortfolioDetails extends Component {
         {/* End Breadcrump Area */}
 
         {/* Start Portfolio Details */}
-        <div className="rn-portfolio-details ptb--120 bg_color--1">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="portfolio-details">
-                  <div className="inner">
-                    <h2>Untitled</h2>
-                  </div>
-                  <div className="portfolio-thumb-inner">
-                    <div className="thumb mb--30">
-                      <img
-                        src="https://i.imgur.com/lOtDo1Y.jpg"
-                        alt="Portfolio Images"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div className="rn-portfolio-details ptb--120 bg_color--1">
           <div className="container">
             <div className="row">
@@ -86,6 +66,7 @@ class PortfolioDetails extends Component {
                   <div className="portfolio-thumb-inner">
                     <div className="thumb mb--30">
                       <img
+                        style={{ height: "890px" }}
                         src="https://i.imgur.com/26gZFn1.jpg"
                         alt="Portfolio Images"
                       />
@@ -152,6 +133,28 @@ class PortfolioDetails extends Component {
                     <div className="thumb mb--30">
                       <img
                         src="https://i.imgur.com/nOl7BvW.jpg"
+                        alt="Portfolio Images"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rn-portfolio-details ptb--120 bg_color--1">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="portfolio-details">
+                  <div className="inner">
+                    <h2>Untitled</h2>
+                  </div>
+                  <div className="portfolio-thumb-inner">
+                    <div className="thumb mb--30">
+                      <img
+                        src="https://i.imgur.com/lOtDo1Y.jpg"
                         alt="Portfolio Images"
                       />
                     </div>

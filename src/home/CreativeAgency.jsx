@@ -8,7 +8,7 @@ import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
 
-const image1 = "/assets/images/bg/paralax/bg-image-3-overlay.jpg";
+const image1 = "https://i.imgur.com/ohx3Qlb.jpg";
 
 const SlideList = [
   {
@@ -29,7 +29,7 @@ class CreativeAgency extends Component {
         <Header logo="light" />
         {/* Start Slider Area   */}
         <div className="slider-activation slider-creative-agency">
-          <Parallax bgImage={image1} strength={1000}>
+          <Parallax bgImage={image1} strength={50}>
             {SlideList.map((value, index) => (
               <div
                 className="slide slide-style-2 slider-paralax d-flex align-items-center justify-content-center"

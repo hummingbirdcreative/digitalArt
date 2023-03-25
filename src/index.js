@@ -21,6 +21,7 @@ import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
 import DigitalDrawing from "./elements/DigitalDrawing";
 import Photography from "./elements/Photography";
+import ProductDesign from "./elements/ProductDesign";
 
 // Blocks Layout
 
@@ -87,6 +88,11 @@ class Root extends Component {
               exact
               path={`${process.env.PUBLIC_URL}/digitaldrawing`}
               component={DigitalDrawing}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/productdesign`}
+              component={ProductDesign}
             />
             <Route
               exact

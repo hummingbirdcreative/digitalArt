@@ -25,7 +25,7 @@ const FooterTwo = () => {
                 <a href="/">
                   <img
                     style={{
-                      width: "120px",
+                      width: "100px",
                       height: "60px",
                     }}
                     src="/assets/images/logo/logo.png"

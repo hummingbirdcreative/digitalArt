@@ -7,7 +7,7 @@ class Header extends Component {
     super(props);
     this.menuTrigger = this.menuTrigger.bind(this);
     this.CLoseMenuTrigger = this.CLoseMenuTrigger.bind(this);
-    //  this.subMetuTrigger = this.subMetuTrigger.bind(this);
+
     window.addEventListener("load", function () {
       console.log("All assets are loaded");
     });
@@ -39,33 +39,21 @@ class Header extends Component {
       logoUrl = (
         <img
           src="/assets/images/logo/logo.png"
-          style={{ width: "120px", height: "120px", marginTop: "-10px" }}
+          style={{ width: "100px", height: "60px", marginTop: "-10px" }}
           alt="August Logo"
         />
       );
     } else if (logo === "dark") {
-      logoUrl = (
-        <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />
-      );
+      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
     } else if (logo === "symbol-dark") {
-      logoUrl = (
-        <img
-          src="/assets/images/logo/logo-symbol-dark.png"
-          alt="Digital Agency"
-        />
-      );
+      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
     } else if (logo === "symbol-light") {
-      logoUrl = (
-        <img
-          src="/assets/images/logo/logo-symbol-light.png"
-          alt="Digital Agency"
-        />
-      );
+      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
     } else {
       logoUrl = (
         <img
           src="/assets/images/logo/logo.png"
-          style={{ width: "120px", height: "60px", marginTop: "-10px" }}
+          style={{ width: "100px", height: "60px", marginTop: "-10px" }}
           alt="Digital Agency"
         />
       );
@@ -88,18 +76,21 @@ class Header extends Component {
                   <Link to="/">Home</Link>
                 </li>
 
-                {/* <li>
+                <li>
                   <Link to="/about">About</Link>
-                </li> */}
+                </li>
 
                 <li className="has-droupdown">
                   <Link to="#pages">Portfolio</Link>
                   <ul className="submenu">
                     <li>
-                      <Link to="/digitaldrawing">Digital Drawing</Link>
+                      <Link to="/digitaldrawing">Digital Art</Link>
                     </li>
                     <li>
                       <Link to="/portfolio-details">Photography</Link>
+                    </li>
+                    <li>
+                      <Link to="/productdesign">Product Design</Link>
                     </li>
                   </ul>
                 </li>
