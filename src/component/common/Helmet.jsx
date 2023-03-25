@@ -6,7 +6,7 @@ class PageHelmet extends Component {
     return (
       <React.Fragment>
         <Helmet>
-          <title>August Graybosch || Interdisciplinary Artist </title>
+          <title>August Graybosch || Interdisciplinary Artist</title>
           <meta name="description" content="digital art portfolio" />
         </Helmet>
       </React.Fragment>
