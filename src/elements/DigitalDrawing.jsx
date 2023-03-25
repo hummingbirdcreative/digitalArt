@@ -118,6 +118,33 @@ class DigitalDrawing extends Component {
             </div>
           </div>
         </div>
+
+        <div className="rn-portfolio-details ptb--120 bg_color--1">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="portfolio-details">
+                  <div className="inner">
+                    <h2>Spruce Effects</h2>
+                    <p>
+                      Photo by Robert Hart (ig: @lostincrystalcanyons). I
+                      designed the tree logo to match a preexisting type logo.
+                      The tree evolved into a main visual of the brand identity.
+                    </p>
+                  </div>
+                  <div className="portfolio-thumb-inner">
+                    <div className="thumb mb--30">
+                      <img
+                        src="https://i.imgur.com/R6z0itr.png"
+                        alt="Portfolio Images"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* End Portfolio Details */}
 
         {/* Start Back To Top */}
