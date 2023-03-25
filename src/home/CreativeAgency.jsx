@@ -1,16 +1,8 @@
 import React, { Component, Fragment } from "react";
 import { Parallax } from "react-parallax";
-import { Link } from "react-router-dom";
-import Slider from "react-slick";
-import { slickDot } from "../page-demo/script";
 
 import Header from "../component/header/Header";
-import ServiceList from "../elements/service/ServiceList";
-import CounterOne from "../elements/counters/CounterOne";
-import Testimonial from "../elements/Testimonial";
-import Team from "../elements/Team";
-import BlogContent from "../elements/blog/BlogContent";
-import BrandTwo from "../elements/BrandTwo";
+
 import FooterTwo from "../component/footer/FooterTwo";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
@@ -29,42 +21,8 @@ const SlideList = [
   },
 ];
 
-const list = [
-  {
-    image: "image-1",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-2",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-3",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-4",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-3",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-4",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-];
-
 class CreativeAgency extends Component {
   render() {
-    const PostList = BlogContent.slice(0, 5);
     return (
       <Fragment>
         <Helmet pageTitle="Creative Agency" />

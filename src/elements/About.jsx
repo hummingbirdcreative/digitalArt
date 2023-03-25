@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
-import CounterOne from "../elements/counters/CounterOne";
-import Testimonial from "../elements/Testimonial";
-import BrandTwo from "../elements/BrandTwo";
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
