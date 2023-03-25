@@ -65,9 +65,6 @@ class Contact extends Component {
                     <p>
                       <a href="tel:+808 720 0076">(808) 720-0076</a>
                     </p>
-                    {/* <p>
-                      <a href="tel:+856 325 652 984">+856 325 652 984</a>
-                    </p> */}
                   </div>
                 </div>
               </div>
@@ -82,7 +79,7 @@ class Contact extends Component {
                   <div className="inner">
                     <h4 className="title">Email Address</h4>
                     <p>
-                      <a href="mailto:admin@gmail.com">august@otisamp.com</a>
+                      <a href="mailto:august@otisamp.com">august@otisamp.com</a>
                     </p>
                     {/* <p>
                       <a href="mailto:example@gmail.com">example@gmail.com</a>
