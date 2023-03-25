@@ -88,9 +88,9 @@ class Header extends Component {
                   <Link to="/">Home</Link>
                 </li>
 
-                <li>
+                {/* <li>
                   <Link to="/about">About</Link>
-                </li>
+                </li> */}
 
                 <li className="has-droupdown">
                   <Link to="#pages">Portfolio</Link>
