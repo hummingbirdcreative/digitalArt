@@ -4,7 +4,7 @@ import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
-import Breadcrumb from "../elements/common/Breadcrumb";
+import Breadcrumb from "./common/Breadcrumb";
 
 class PortfolioDetails extends Component {
   constructor() {
