@@ -63,7 +63,7 @@ class Contact extends Component {
                   <div className="inner">
                     <h4 className="title">Phone Number</h4>
                     <p>
-                      <a href="tel:+057 254 365 456">(808) 720-0076</a>
+                      <a href="tel:+808 720 0076">(808) 720-0076</a>
                     </p>
                     {/* <p>
                       <a href="tel:+856 325 652 984">+856 325 652 984</a>
